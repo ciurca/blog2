@@ -1,0 +1,44 @@
+---
+label: exx
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: datetime
+  name: date
+  label: date
+- type: textarea
+  name: description
+  label: description
+- type: list
+  name: categories
+  label: categories
+- type: boolean
+  name: dropCap
+  label: dropCap
+- type: boolean
+  name: displayInMenu
+  label: displayInMenu
+- type: boolean
+  name: displayInList
+  label: displayInList
+- type: field_group_list
+  name: resources
+  label: resources
+  fields:
+  - type: text
+    name: name
+    label: name
+  - type: file
+    name: src
+    label: src
+  - type: field_group
+    name: params
+    label: params
+    fields:
+    - type: text
+      name: description
+      label: description
+pages:
+- content/posts/exx/cool-example.md

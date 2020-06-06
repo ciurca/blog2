@@ -1,0 +1,28 @@
+---
+label: page
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: title
+- type: boolean
+  name: displayInMenu
+  label: displayInMenu
+- type: boolean
+  name: displayInList
+  label: displayInList
+- type: boolean
+  name: dropCap
+  label: dropCap
+- name: date
+  type: datetime
+  label: date
+  description: ''
+  config:
+    required: false
+    date_format: 
+    time_format: 
+    display_utc: false
+pages:
+- content/about/index.md
+- content/quotes.md

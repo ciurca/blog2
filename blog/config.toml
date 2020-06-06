@@ -1,0 +1,14 @@
+baseurl = "https://blog.raduciurca.com"
+title = "Going Further"
+author = "Radu Ciurca"
+canonifyurls = true
+paginate = 3
+theme = "aether"
+googleAnalytics = "UA-159982567-1"
+enableRobotsTXT = true
+#disqusShortname = "ciurca"
+[params]
+brand = "Going Further"
+description = "Radu Ciurca - Going Further - Blog, Essays and Posts"
+bgimg = "img/y-so-serious-white.png"
+homeimg = "img/buttonbg.jpg"
